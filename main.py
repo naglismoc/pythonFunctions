@@ -11,13 +11,18 @@
 
 # arr2 = [7,9,1,1,6,684,16,6,8,105,0.5,68,0.5,3551,31,165,3]
 #
-# def avg(arr):
-#     sum = 0
-#     count = 0
-#     for i in arr:
-#         count += 1
-#         sum += i
-#     return sum / count
+def avg(arr):
+    sum = 0
+    count = 0
+    for i in arr:
+        count += 1
+        sum += i
+    return sum / count
+
+
+# print("Aušros gimnazijos studento pažymių vidurkis yra " + str(avg(arr)))
+
+
 #
 # print( avg(arr) )
 # print( avg(arr2) )
@@ -56,4 +61,14 @@ def intSum (a, b):#priima, gražina
 result = intSum(16,36)
 print(result)
 
+def makeCoffee(type, temperature = "hot"):
+    print(f'There u go, your {temperature} {type} coffee')
 
+makeCoffee("black")
+makeCoffee("Latte", "cold")
+
+
+
+range(10)
+range(1, 10)
+range(1, 10, 2)
